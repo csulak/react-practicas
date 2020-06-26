@@ -1,0 +1,8 @@
+instalar en chrome redux dev tools
+
+
+instalar en la raiz del proyecto
+
+npm i redux react-redux redux-devtools redux-thunk axios
+
+npm i firebase react-router-dom
