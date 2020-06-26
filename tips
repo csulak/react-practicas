@@ -1,0 +1,23 @@
+explicacion https://www.udemy.com/course/curso-react-js/learn/lecture/18724286#overview
+
+firebase.google.com 
+
+nos registramos en firebase y nos creame un nuevo proyecto 
+
+npm i firebase
+
+
+
+buildear aplicacion para que sea hosteada
+npm run build
+
+
+todo relacionado para poder hostear en firebase mi app
+
+Esto se instala por unica vez ya que se instala en la pc de forma global (-g) 
+npm install -g firebase-tools
+
+firebase login
+
+
+
