@@ -1,0 +1,45 @@
+npm i firebase
+
+npm i react-router-dom
+
+npm install moment --save
+
+
+
+
+para subir la app a produccion (https://www.udemy.com/course/curso-react-js/learn/lecture/18648374#overview)
+primero buildeamos la app
+ 
+npm run build
+
+
+despues ir a la web de firebase -> hosting -> click en comenzar
+y nos pide que instalemos las herramientas de firebase (se hace una sola vez en la pc ya que se instalan de forma global)
+
+npm install -g firebase-tools
+
+despues en la web de firebase -> siguiente
+
+
+firebase login (nos logueamos)
+
+firebase init (y aca nos pide varias opciones que estan en el link del video de udemy que esta mas arriba)
+
+
+firebase deploy
+
+
+
+======
+una vez configurado todo y que ya esta subida al host de firebase la app ya la puedo usar con el link que nos proporcionan
+
+si hacemos cambios en archivos de firebase simplemente ejecutar
+firebase deploy
+
+si hacemos cambios en la configuracion de nuestro proyecto ejecutar:
+npm run build
+
+firebase deploy
+
+
+
