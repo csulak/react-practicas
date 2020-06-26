@@ -1,0 +1,18 @@
+
+
+
+
+libreria instaladas 
+
+npm i shortid
+
+
+creamos el build de la app para subirlo a netlify y tener nuestra app hosteada
+
+npm run build
+
+
+Este comando crea una carpeta llamada build, y este seria el que tenemos que subir al host
+
+
+
