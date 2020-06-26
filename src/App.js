@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Saludo from './components/Saludo';
+import Comentario from './components/Comentario';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-5">
+      <h1>Proyecto desde 0</h1>
+      <Saludo persona="Ignacio" edad={25} />
+      <Saludo persona="Lucas" edad={50}/>
+      <Saludo persona="Maru" edad={51}/>
+      <hr />
+      <h3>Cajita de comentarios</h3>
+      <Comentario
+        media="https://picsum.photos/64"
+        nombre="Lucas!"
+        comentario="estoy aprendiendo react y react native :)"
+      />
+
+      <Comentario
+        media="https://picsum.photos/64"
+        nombre="Maru"
+        comentario="Ojala sea muy feliz conmigo !!!"
+      />
+
+      <Comentario
+        media="https://picsum.photos/64"
+        nombre="Facu!"
+        comentario="Quiero aprender ingles"
+      />
     </div>
   );
 }
