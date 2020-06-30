@@ -1,0 +1,32 @@
+npm install -g firebase-tools
+
+
+adentro de la carpeta fronentd -> npm i firebase
+
+
+
+dentro de la carpeta frontend si hacemos modificaciones sobre las functions y queremos deployar correr el comando:
+firebase deploy --only functions
+
+
+
+
+
+
+
+
+
+para deployar el frontend: bajar el proyecto y correr
+
+npm run build
+
+
+
+subir codigo a git
+
+posicionamos en la carpeta a subir
+git init
+git checkout -b nombre-branch
+git add .
+git commit -m "comentario"
+git push https://github.com/csulak/react-practicas.git nombre-brunch
